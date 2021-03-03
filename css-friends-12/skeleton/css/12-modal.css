@@ -18,6 +18,22 @@
     background-color: white;
     border: 1px solid black;
     border-radius: 4px;
+}
 
+.modal-close {
+    /* position: absolute; */
 
+}
+
+.modal-close:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.modal.is-open {
+    display: block;
+}
+
+.modal {
+    display: none;
 }
