@@ -1,0 +1,25 @@
+.tile, .bombed {
+    height: 25px;
+    width: 25px;
+    background-color: gray;
+    /* border: 2px solid black; */
+    text-align: center;
+    font-size: 12px;
+    border-style: outset;
+}
+
+.explored {
+    border-style: inset;
+}
+
+.board {
+    margin-top: 75px;
+    
+}
+
+.rows {
+    display: flex;
+    justify-content: center;
+
+    
+}
